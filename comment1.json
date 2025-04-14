@@ -1,0 +1,55 @@
+{
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "resource": [
+        {
+          "http://dev.llgc.org.uk/sas/full_text": "comment1",
+          "@type": "oa:Tag",
+          "chars": "comment1"
+        },
+        {
+          "http://dev.llgc.org.uk/sas/full_text": "Toxic image",
+          "@type": "oa:Tag",
+          "chars": "Toxic image"
+        },
+        {
+          "http://dev.llgc.org.uk/sas/full_text": "Yo bitch Ja Rule is more succesful then you'll ever be whats up with you and hating you sad motherfuc...",
+          "@type": "dctypes:Text",
+          "format": "text/html",
+          "chars": "<p>Yo bitch Ja Rule is more succesful then you'll ever be whats up with you and hating you sad motherfuc...</p>"
+        }
+      ],
+      "@type": "oa:Annotation",
+      "dcterms:creator": "https://sasha170299.github.io",
+      "motivation": ["oa:tagging", "oa:commenting"],
+      "dcterms:created": "2025-04-15T00:00:00Z",
+      "@id": "https://sasha170299.github.io/annotations/comment1.json",
+      "dcterms:modified": "2025-04-15T00:00:00Z",
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "on": [
+        {
+          "within": {
+            "@type": "sc:Manifest",
+            "@id": "https://sasha170299.github.io/manifest1.json"
+          },
+          "@type": "oa:SpecificResource",
+          "selector": {
+            "default": {
+              "@type": "oa:FragmentSelector",
+              "value": "xywh=0,0,1000,1000"
+            },
+            "item": {
+              "@type": "oa:SvgSelector",
+              "value": "<svg xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='1000' height='1000' style='fill:transparent;stroke:black;stroke-width:6'/></svg>"
+            },
+            "@type": "oa:Choice"
+          },
+          "full": "https://www.cartadiroma.org/wp-content/uploads/2016/05/hate.jpg"
+        }
+      ]
+    }
+  ],
+  "@id": "https://sasha170299.github.io/annotations/comment1.json",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}
