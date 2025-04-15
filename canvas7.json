@@ -1,0 +1,34 @@
+{
+  "@type": "sc:Canvas",
+  "@id": "https://sasha170299.github.io/iiif-annotations-project/canvas7",
+  "label": "Canvas 7",
+  "width": 1000,
+  "height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://enidajohnson.com/wp-content/uploads/2012/07/no_arguing.jpg",
+        "format": "image/jpeg",
+        "height": 1000,
+        "width": 1000
+      },
+      "on": "https://sasha170299.github.io/iiif-annotations-project/canvas7"
+    }
+  ],
+  "annotations": [
+    {
+      "@type": "oa:Annotation",
+      "motivation": "commenting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "Threat \u2014 Don't argue with me or I will kill you!...",
+        "chars": "Threat: Don't argue with me or I will kill you!"
+      },
+      "on": "https://sasha170299.github.io/iiif-annotations-project/canvas7"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "@type": "sc:Canvas",
+  "@id": "https://sasha170299.github.io/iiif-annotations-project/canvas3",
+  "label": "Canvas 3",
+  "width": 1000,
+  "height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://ctl.s6img.com/society6/img/ojKw2-XZbIz7wAgKDl_cPu5tiaU/h_700,w_700/metal-prints/1x1/front/~artwork/s6-0029/a/14023577_16772511?width=3024&crop=center",
+        "format": "image/jpeg",
+        "height": 1000,
+        "width": 1000
+      },
+      "on": "https://sasha170299.github.io/iiif-annotations-project/canvas3"
+    }
+  ],
+  "annotations": [
+    {
+      "@type": "oa:Annotation",
+      "motivation": "commenting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "Obscene \u2014 COCKSUCKER BEFORE YOU PISS AROUND ON MY WORK....",
+        "chars": "Obscene: COCKSUCKER BEFORE YOU PISS AROUND ON MY WORK."
+      },
+      "on": "https://sasha170299.github.io/iiif-annotations-project/canvas3"
+    }
+  ]
+}
