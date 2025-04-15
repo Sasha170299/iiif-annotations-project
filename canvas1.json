@@ -1,0 +1,33 @@
+{
+  "@type": "sc:Canvas",
+  "@id": "https://sasha170299.github.io/iiif-annotations-project/canvas1",
+  "label": "Canvas 1",
+  "width": 1000,
+  "height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://www.cartadiroma.org/wp-content/uploads/2016/05/hate.jpg",
+        "format": "image/jpeg",
+        "height": 1000,
+        "width": 1000
+      },
+      "on": "https://sasha170299.github.io/iiif-annotations-project/canvas1"
+    }
+  ],
+  "annotations": [
+    {
+      "@type": "oa:Annotation",
+      "motivation": "commenting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Yo bitch Ja Rule is more successful than you'll ever be. What's up with you and hating, you sad motherfuc..."
+      },
+      "on": "https://sasha170299.github.io/iiif-annotations-project/canvas1"
+    }
+  ]
+}
