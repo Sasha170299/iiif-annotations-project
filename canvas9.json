@@ -1,0 +1,35 @@
+{
+  "@type": "sc:Canvas",
+  "@id": "https://sasha170299.github.io/iiif-annotations-project/canvas9",
+  "label": "Canvas 9",
+  "width": 1000,
+  "height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://m.media-amazon.com/images/I/419cnzm0czL._UF894,1000_QL80_.jpg",
+        "format": "image/jpeg",
+        "height": 1000,
+        "width": 1000
+      },
+      "on": "https://sasha170299.github.io/iiif-annotations-project/canvas9"
+    }
+  ],
+  "annotations": [
+    {
+      "@id": "https://sasha170299.github.io/iiif-annotations-project/annotation9",
+      "@type": "oa:Annotation",
+      "motivation": "commenting",
+      "label": "Identity Hate",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "Your kind is ruining this country, you worthless gay!"
+      },
+      "on": "https://sasha170299.github.io/iiif-annotations-project/canvas9"
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://sasha170299.github.io/iiif-annotations-project/manifest1.json",
+  "@type": "sc:Manifest",
+  "label": "Toxic Comment Dataset with Visible Labels and Comments",
+  "description": "Each canvas includes a toxic comment and a visible label that clearly appears in Mirador.",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "label": "Default Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://sasha170299.github.io/iiif-annotations-project/canvas1",
+          "label": "Canvas 1",
+          "width": 1000,
+          "height": 1000,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://www.cartadiroma.org/wp-content/uploads/2016/05/hate.jpg",
+                "format": "image/jpeg",
+                "height": 1000,
+                "width": 1000
+              },
+              "on": "https://sasha170299.github.io/iiif-annotations-project/canvas1"
+            }
+          ],
+          "annotations": [
+            {
+              "@id": "https://sasha170299.github.io/iiif-annotations-project/annotation1",
+              "@type": "oa:Annotation",
+              "motivation": "commenting",
+              "label": "Identity Hate",
+              "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Yo bitch Ja Rule is more successful than you'll ever be. What's up with you and hating, you sad motherfuc..."
+              },
+              "on": "https://sasha170299.github.io/iiif-annotations-project/canvas1"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://sasha170299.github.io/iiif-annotations-project/canvas2",
+          "label": "Canvas 2",
+          "width": 1000,
+          "height": 1000,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://www.rismedia.com/wp-content/uploads/2020/07/magnifying-glass-looking-to-the-word-title-made-with-letter-game-on-picture-id1224819438.jpg",
+                "format": "image/jpeg",
+                "height": 1000,
+                "width": 1000
+              },
+              "on": "https://sasha170299.github.io/iiif-annotations-project/canvas2"
+            }
+          ],
+          "annotations": [
+            {
+              "@id": "https://sasha170299.github.io/iiif-annotations-project/annotation2",
+              "@type": "oa:Annotation",
+              "motivation": "commenting",
+              "label": "Neutral",
+              "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "The title is fine as it is, IMO."
+              },
+              "on": "https://sasha170299.github.io/iiif-annotations-project/canvas2"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://sasha170299.github.io/iiif-annotations-project/canvas3",
+          "label": "Canvas 3",
+          "width": 1000,
+          "height": 1000,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://ctl.s6img.com/society6/img/ojKw2-XZbIz7wAgKDl_cPu5tiaU/h_700,w_700/metal-prints/1x1/front/~artwork/s6-0029/a/14023577_16772511?width=3024&crop=center",
+                "format": "image/jpeg",
+                "height": 1000,
+                "width": 1000
+              },
+              "on": "https://sasha170299.github.io/iiif-annotations-project/canvas3"
+            }
+          ],
+          "annotations": [
+            {
+              "@id": "https://sasha170299.github.io/iiif-annotations-project/annotation3",
+              "@type": "oa:Annotation",
+              "motivation": "commenting",
+              "label": "Obscene",
+              "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "COCKSUCKER BEFORE YOU PISS AROUND ON MY WORK."
+              },
+              "on": "https://sasha170299.github.io/iiif-annotations-project/canvas3"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://sasha170299.github.io/iiif-annotations-project/canvas4",
+          "label": "Canvas 4",
+          "width": 1000,
+          "height": 1000,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://thumbs.dreamstime.com/b/not-friends-anymore-two-angry-women-looking-each-other-sitting-different-sides-couch-32741929.jpg",
+                "format": "image/jpeg",
+                "height": 1000,
+                "width": 1000
+              },
+              "on": "https://sasha170299.github.io/iiif-annotations-project/canvas4"
+            }
+          ],
+          "annotations": [
+            {
+              "@id": "https://sasha170299.github.io/iiif-annotations-project/annotation4",
+              "@type": "oa:Annotation",
+              "motivation": "commenting",
+              "label": "Neutral",
+              "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Bye! Don't look, we're not your friends anymore."
+              },
+              "on": "https://sasha170299.github.io/iiif-annotations-project/canvas4"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://sasha170299.github.io/iiif-annotations-project/canvas5",
+          "label": "Canvas 5",
+          "width": 1000,
+          "height": 1000,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://www.boostability.com/wp-content/uploads/2011/01/301-redirect.jpg",
+                "format": "image/jpeg",
+                "height": 1000,
+                "width": 1000
+              },
+              "on": "https://sasha170299.github.io/iiif-annotations-project/canvas5"
+            }
+          ],
+          "annotations": [
+            {
+              "@id": "https://sasha170299.github.io/iiif-annotations-project/annotation5",
+              "@type": "oa:Annotation",
+              "motivation": "commenting",
+              "label": "Neutral",
+              "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "REDIRECT Talk:Voydan Pop Georgiev- Chernomorets."
+              },
+              "on": "https://sasha170299.github.io/iiif-annotations-project/canvas5"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://sasha170299.github.io/iiif-annotations-project/canvas6",
+          "label": "Canvas 6",
+          "width": 1000,
+          "height": 1000,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://cdn.tinybuddha.com/wp-content/uploads/2015/05/Sad-Man.jpg",
+                "format": "image/jpeg",
+                "height": 1000,
+                "width": 1000
+              },
+              "on": "https://sasha170299.github.io/iiif-annotations-project/canvas6"
+            }
+          ],
+          "annotations": [
+            {
+              "@id": "https://sasha170299.github.io/iiif-annotations-project/annotation6",
+              "@type": "oa:Annotation",
+              "motivation": "commenting",
+              "label": "Severe Toxic",
+              "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "I hope you die a slow and painful death, you worthless..."
+              },
+              "on": "https://sasha170299.github.io/iiif-annotations-project/canvas6"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://sasha170299.github.io/iiif-annotations-project/canvas7",
+          "label": "Canvas 7",
+          "width": 1000,
+          "height": 1000,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://enidajohnson.com/wp-content/uploads/2012/07/no_arguing.jpg",
+                "format": "image/jpeg",
+                "height": 1000,
+                "width": 1000
+              },
+              "on": "https://sasha170299.github.io/iiif-annotations-project/canvas7"
+            }
+          ],
+          "annotations": [
+            {
+              "@id": "https://sasha170299.github.io/iiif-annotations-project/annotation7",
+              "@type": "oa:Annotation",
+              "motivation": "commenting",
+              "label": "Threat",
+              "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Don't argue with me or I will kill you!"
+              },
+              "on": "https://sasha170299.github.io/iiif-annotations-project/canvas7"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://sasha170299.github.io/iiif-annotations-project/canvas8",
+          "label": "Canvas 8",
+          "width": 1000,
+          "height": 1000,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://media.istockphoto.com/id/1345030885/vector/swear-word-speech-bubble-set.jpg?s=612x612&w=0&k=20&c=v7yCX_e1tGnBn2g6FYXEmvXX-91HLHVp7bR1rLJ-kxw=",
+                "format": "image/jpeg",
+                "height": 1000,
+                "width": 1000
+              },
+              "on": "https://sasha170299.github.io/iiif-annotations-project/canvas8"
+            }
+          ],
+          "annotations": [
+            {
+              "@id": "https://sasha170299.github.io/iiif-annotations-project/annotation8",
+              "@type": "oa:Annotation",
+              "motivation": "commenting",
+              "label": "Insult",
+              "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "FUCK YOUR FILTHY MOTHER IN THE ASS, DRY!"
+              },
+              "on": "https://sasha170299.github.io/iiif-annotations-project/canvas8"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://sasha170299.github.io/iiif-annotations-project/canvas9",
+          "label": "Canvas 9",
+          "width": 1000,
+          "height": 1000,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://m.media-amazon.com/images/I/419cnzm0czL._UF894,1000_QL80_.jpg",
+                "format": "image/jpeg",
+                "height": 1000,
+                "width": 1000
+              },
+              "on": "https://sasha170299.github.io/iiif-annotations-project/canvas9"
+            }
+          ],
+          "annotations": [
+            {
+              "@id": "https://sasha170299.github.io/iiif-annotations-project/annotation9",
+              "@type": "oa:Annotation",
+              "motivation": "commenting",
+              "label": "Identity Hate",
+              "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "Your kind is ruining this country, you worthless gay!"
+              },
+              "on": "https://sasha170299.github.io/iiif-annotations-project/canvas9"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://sasha170299.github.io/iiif-annotations-project/canvas10",
+          "label": "Canvas 10",
+          "width": 1000,
+          "height": 1000,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://thumbs.dreamstime.com/b/brainless-crazy-guy-vector-cartoon-illustration-idiot-33095760.jpg",
+                "format": "image/jpeg",
+                "height": 1000,
+                "width": 1000
+              },
+              "on": "https://sasha170299.github.io/iiif-annotations-project/canvas10"
+            }
+          ],
+          "annotations": [
+            {
+              "@id": "https://sasha170299.github.io/iiif-annotations-project/annotation10",
+              "@type": "oa:Annotation",
+              "motivation": "commenting",
+              "label": "Insult",
+              "resource": {
+                "@type": "cnt:ContentAsText",
+                "format": "text/plain",
+                "chars": "You are a stupid idiot."
+              },
+              "on": "https://sasha170299.github.io/iiif-annotations-project/canvas10"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "@type": "sc:Canvas",
+  "@id": "https://sasha170299.github.io/iiif-annotations-project/canvas2",
+  "label": "Canvas 2",
+  "width": 1000,
+  "height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://www.rismedia.com/wp-content/uploads/2020/07/magnifying-glass-looking-to-the-word-title-made-with-letter-game-on-picture-id1224819438.jpg",
+        "format": "image/jpeg",
+        "height": 1000,
+        "width": 1000
+      },
+      "on": "https://sasha170299.github.io/iiif-annotations-project/canvas2"
+    }
+  ],
+  "annotations": [
+    {
+      "@id": "https://sasha170299.github.io/iiif-annotations-project/annotation2",
+      "@type": "oa:Annotation",
+      "motivation": "commenting",
+      "label": "Neutral",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "The title is fine as it is, IMO."
+      },
+      "on": "https://sasha170299.github.io/iiif-annotations-project/canvas2"
+    }
+  ]
+}

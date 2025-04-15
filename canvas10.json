@@ -1,0 +1,35 @@
+{
+  "@type": "sc:Canvas",
+  "@id": "https://sasha170299.github.io/iiif-annotations-project/canvas10",
+  "label": "Canvas 10",
+  "width": 1000,
+  "height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://thumbs.dreamstime.com/b/brainless-crazy-guy-vector-cartoon-illustration-idiot-33095760.jpg",
+        "format": "image/jpeg",
+        "height": 1000,
+        "width": 1000
+      },
+      "on": "https://sasha170299.github.io/iiif-annotations-project/canvas10"
+    }
+  ],
+  "annotations": [
+    {
+      "@id": "https://sasha170299.github.io/iiif-annotations-project/annotation10",
+      "@type": "oa:Annotation",
+      "motivation": "commenting",
+      "label": "Insult",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "You are a stupid idiot."
+      },
+      "on": "https://sasha170299.github.io/iiif-annotations-project/canvas10"
+    }
+  ]
+}
