@@ -40,22 +40,16 @@
       "images": [
         {
           "id": "https://sasha170299.github.io/iiif-annotations-project/image1",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://sasha170299.github.io/iiif-annotations-project/image1/anno",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://www.cartadiroma.org/wp-content/uploads/2016/05/hate.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "width": 800,
-                "height": 600
-              },
-              "target": "https://sasha170299.github.io/iiif-annotations-project/canvas1"
-            }
-          ]
+          "type": "Annotation",
+          "motivation": "painting",
+          "body": {
+            "id": "https://www.cartadiroma.org/wp-content/uploads/2016/05/hate.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "width": 800,
+            "height": 600
+          },
+          "target": "https://sasha170299.github.io/iiif-annotations-project/canvas1"
         }
       ]
     }
