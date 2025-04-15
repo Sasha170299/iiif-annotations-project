@@ -7,8 +7,9 @@
     {
       "id": "https://sasha170299.github.io/iiif-annotations-project/canvas1",
       "type": "Canvas",
-      "width": 800,
       "height": 600,
+      "width": 800,
+      "label": { "en": ["Comment 1"] },
       "items": [
         {
           "id": "https://sasha170299.github.io/iiif-annotations-project/canvas1/page1",
@@ -24,19 +25,11 @@
                 "format": "text/plain",
                 "language": "en"
               },
-              "target": {
-                "source": "https://sasha170299.github.io/iiif-annotations-project/canvas1",
-                "selector": {
-                  "type": "FragmentSelector",
-                  "conformsTo": "http://www.w3.org/TR/media-frags/",
-                  "value": "xywh=100,100,300,200"
-                }
-              }
+              "target": "https://sasha170299.github.io/iiif-annotations-project/canvas1#xywh=100,100,300,200"
             }
           ]
         }
       ],
-      "label": { "en": ["Comment 1"] },
       "thumbnail": [
         {
           "id": "https://www.cartadiroma.org/wp-content/uploads/2016/05/hate.jpg",
