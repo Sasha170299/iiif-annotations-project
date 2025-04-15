@@ -1,0 +1,18 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://sasha170299.github.io/iiif-annotations-project/annotation2.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@type": "oa:Annotation",
+      "motivation": "commenting",
+      "label": "Neutral",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "The title is fine as it is, IMO."
+      },
+      "on": "https://sasha170299.github.io/iiif-annotations-project/canvas2"
+    }
+  ]
+}

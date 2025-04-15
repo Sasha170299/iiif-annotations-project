@@ -1,0 +1,29 @@
+{
+  "@type": "sc:Canvas",
+  "@id": "https://sasha170299.github.io/iiif-annotations-project/canvas7",
+  "label": "Canvas 7",
+  "width": 1000,
+  "height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "motivation": [
+        "oa:painting"
+      ],
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://enidajohnson.com/wp-content/uploads/2012/07/no_arguing.jpg",
+        "format": "image/jpeg",
+        "width": 1000,
+        "height": 1000
+      },
+      "on": "https://sasha170299.github.io/iiif-annotations-project/canvas7"
+    }
+  ],
+  "otherContent": [
+    {
+      "@id": "https://sasha170299.github.io/iiif-annotations-project/annotation7.json",
+      "@type": "sc:AnnotationList"
+    }
+  ]
+}
