@@ -1,38 +1,61 @@
 {
-  "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@type": "sc:Manifest",
-  "@id": "https://sasha170299.github.io/iiif-annotations-project/manifest1.json",
-  "label": "Toxic image",
-  "sequences": [
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://sasha170299.github.io/iiif-annotations-project/manifest1.json",
+  "type": "Manifest",
+  "label": {
+    "en": ["Comment 1"]
+  },
+  "items": [
     {
-      "@type": "sc:Sequence",
-      "canvases": [
+      "id": "https://sasha170299.github.io/iiif-annotations-project/canvas1",
+      "type": "Canvas",
+      "width": 800,
+      "height": 600,
+      "items": [
         {
-          "@type": "sc:Canvas",
-          "@id": "https://sasha170299.github.io/iiif-annotations-project/canvas1.json",
-          "label": "Comment 1",
-          "height": 1000,
-          "width": 1000,
-          "images": [
+          "id": "https://sasha170299.github.io/iiif-annotations-project/page1/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
             {
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@type": "dctypes:Image",
-                "@id": "https://www.cartadiroma.org/wp-content/uploads/2016/05/hate.jpg",
-                "format": "image/jpeg",
-                "height": 1000,
-                "width": 1000
+              "id": "https://sasha170299.github.io/iiif-annotations-project/page1/annotation1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "Yo bitch Ja Rule is more succesful then you'll ever be whats up with you and hating you sad motherfuc...",
+                "format": "text/plain",
+                "language": "en"
               },
-              "on": "https://sasha170299.github.io/iiif-annotations-project/canvas1.json"
-            }
-          ],
-          "otherContent": [
-            {
-              "@type": "sc:AnnotationList",
-              "@id": "https://sasha170299.github.io/iiif-annotations-project/annotation1.json"
+              "target": "https://sasha170299.github.io/iiif-annotations-project/canvas1"
             }
           ]
+        }
+      ],
+      "height": 600,
+      "width": 800,
+      "label": {
+        "en": ["Toxic image"]
+      },
+      "thumbnail": [
+        {
+          "id": "https://www.cartadiroma.org/wp-content/uploads/2016/05/hate.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "images": [
+        {
+          "id": "https://sasha170299.github.io/iiif-annotations-project/annotation1-image",
+          "type": "Annotation",
+          "motivation": "painting",
+          "body": {
+            "id": "https://www.cartadiroma.org/wp-content/uploads/2016/05/hate.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "width": 800,
+            "height": 600
+          },
+          "target": "https://sasha170299.github.io/iiif-annotations-project/canvas1"
         }
       ]
     }
