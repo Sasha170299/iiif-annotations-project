@@ -5,13 +5,13 @@
   "resources": [
     {
       "@type": "oa:Annotation",
-      "motivation": "oa:commenting",
+      "motivation": "commenting",
       "resource": {
-        "@type": "dctypes:Text",
+        "@type": "cnt:ContentAsText",
         "format": "text/plain",
-        "chars": "Yo bitch Ja Rule is more succesful then you'll ever be whats up with you and hating you sad motherfuc..."
+        "chars": "Yo bitch Ja Rule is more successful than you'll ever be. What's up with you and hating, you sad motherfuc..."
       },
-      "on": "https://sasha170299.github.io/iiif-annotations-project/canvas1.json"
+      "on": "https://sasha170299.github.io/iiif-annotations-project/canvas1"
     }
   ]
 }
