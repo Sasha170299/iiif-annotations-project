@@ -1,16 +1,16 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://sasha170299.github.io/manifest1.json",
   "@type": "sc:Manifest",
+  "@id": "https://sasha170299.github.io/iiif-annotations-project/manifest1.json",
   "label": "Toxic image",
   "sequences": [
     {
       "@type": "sc:Sequence",
       "canvases": [
         {
-          "@id": "https://sasha170299.github.io/canvas1.json",
           "@type": "sc:Canvas",
-          "label": "Toxic image",
+          "@id": "https://sasha170299.github.io/iiif-annotations-project/canvas1.json",
+          "label": "Comment 1",
           "height": 1000,
           "width": 1000,
           "images": [
@@ -18,13 +18,19 @@
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://www.cartadiroma.org/wp-content/uploads/2016/05/hate.jpg",
                 "@type": "dctypes:Image",
+                "@id": "https://www.cartadiroma.org/wp-content/uploads/2016/05/hate.jpg",
                 "format": "image/jpeg",
                 "height": 1000,
                 "width": 1000
               },
-              "on": "https://sasha170299.github.io/canvas1.json"
+              "on": "https://sasha170299.github.io/iiif-annotations-project/canvas1.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@type": "sc:AnnotationList",
+              "@id": "https://sasha170299.github.io/iiif-annotations-project/annotation1.json"
             }
           ]
         }
