@@ -1,0 +1,17 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://sasha170299.github.io/iiif-annotations-project/annotation9.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@type": "oa:Annotation",
+      "motivation": "commenting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "[Identity Hate] Your kind is ruining this country, you worthless gay!"
+      },
+      "on": "https://sasha170299.github.io/iiif-annotations-project/canvas9"
+    }
+  ]
+}
