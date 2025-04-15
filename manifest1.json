@@ -2,9 +2,7 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "https://sasha170299.github.io/iiif-annotations-project/manifest1.json",
   "type": "Manifest",
-  "label": {
-    "en": ["Toxic image"]
-  },
+  "label": { "en": ["Toxic image"] },
   "items": [
     {
       "id": "https://sasha170299.github.io/iiif-annotations-project/canvas1",
@@ -13,7 +11,7 @@
       "height": 600,
       "items": [
         {
-          "id": "https://sasha170299.github.io/iiif-annotations-project/page1/1",
+          "id": "https://sasha170299.github.io/iiif-annotations-project/canvas1/page1",
           "type": "AnnotationPage",
           "items": [
             {
@@ -22,8 +20,9 @@
               "motivation": "commenting",
               "body": {
                 "type": "TextualBody",
-                "value": "Yo bitch Ja Rule is more successful than you'll ever be what's up with you and hating you sad motherfuc...",
-                "format": "text/plain"
+                "value": "Yo bitch Ja Rule is more successful than you'll ever be. What's up with you and hating? You sad motherfuc...",
+                "format": "text/plain",
+                "language": "en"
               },
               "target": {
                 "source": "https://sasha170299.github.io/iiif-annotations-project/canvas1",
@@ -37,9 +36,7 @@
           ]
         }
       ],
-      "label": {
-        "en": ["Comment 1"]
-      },
+      "label": { "en": ["Comment 1"] },
       "thumbnail": [
         {
           "id": "https://www.cartadiroma.org/wp-content/uploads/2016/05/hate.jpg",
@@ -47,16 +44,27 @@
           "format": "image/jpeg"
         }
       ],
-      "height": 600,
-      "width": 800
-    }
-  ],
-  "thumbnail": [
-    {
-      "id": "https://www.cartadiroma.org/wp-content/uploads/2016/05/hate.jpg",
-      "type": "Image",
-      "format": "image/jpeg"
+      "images": [
+        {
+          "id": "https://sasha170299.github.io/iiif-annotations-project/image1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://sasha170299.github.io/iiif-annotations-project/image1/anno",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://www.cartadiroma.org/wp-content/uploads/2016/05/hate.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 800,
+                "height": 600
+              },
+              "target": "https://sasha170299.github.io/iiif-annotations-project/canvas1"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
-
