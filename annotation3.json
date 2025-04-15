@@ -1,0 +1,17 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://sasha170299.github.io/iiif-annotations-project/annotation3.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@type": "oa:Annotation",
+      "motivation": "commenting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "[Obscene] COCKSUCKER BEFORE YOU PISS AROUND ON MY WORK."
+      },
+      "on": "https://sasha170299.github.io/iiif-annotations-project/canvas3"
+    }
+  ]
+}
